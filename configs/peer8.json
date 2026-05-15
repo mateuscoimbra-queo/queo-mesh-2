@@ -1,0 +1,13 @@
+{
+  "node_id": "peer-8",
+  "short_id": "p8",
+  "listen_endpoint": "tcp/0.0.0.0:7448",
+  "neighbor_endpoints": [
+
+  ],
+  "neighbor_nodes": [
+      
+  ],
+  "gossip_enabled": false,
+  "role": "relay"
+}

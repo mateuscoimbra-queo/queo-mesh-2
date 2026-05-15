@@ -1,0 +1,21 @@
+{
+  "node_id": "peer-6",
+  "short_id": "p6",
+  "listen_endpoint": "tcp/0.0.0.0:7446",
+  "neighbor_endpoints": [
+  
+    "tcp/127.0.0.1:7442",
+
+
+
+
+
+    "tcp/127.0.0.1:7449"
+  ],
+  "neighbor_nodes": [
+    "p2",
+    "pT"
+  ],
+  "gossip_enabled": true,
+  "role": "relay"
+}

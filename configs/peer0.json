@@ -1,0 +1,20 @@
+{
+  "node_id": "peer_operador",
+  "short_id": "peer0",
+  "listen_endpoint": "tcp/0.0.0.0:7440",
+  "neighbor_endpoints": [
+    "tcp/127.0.0.1:7441",
+    "tcp/127.0.0.1:7444",
+    "tcp/127.0.0.1:7447"
+  ],
+  "neighbor_nodes": [
+    "p1",
+    "p4",
+    "p7"
+  ],
+  "gossip_enabled": false,
+  "target": "peer-T",
+  "command_key": "dsot/peer-T/commands",
+  "ack_sub_key": "dsot/acks/peer0",
+  "outbox_file": "peer0_outbox.json"
+}
