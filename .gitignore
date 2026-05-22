@@ -1,6 +1,11 @@
-__pycache__/ 
-*.pyc 
-.venv/ 
-venv/ 
-*.log 
-peer*_outbox.json 
+configs/*.json
+!configs/*.example.json
+
+*.local.json
+.env
+*.log
+peer*_outbox.json
+__pycache__/
+*.pyc
+.venv/
+venv/
