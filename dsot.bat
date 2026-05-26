@@ -74,61 +74,61 @@ set "INPUT=%~1"
 
 if /i "%INPUT%"=="p0" (
     set "WINDOW_TITLE=PEER_p0"
-    set "RUN_CMD=py ""peer_operador.py"" ""configs\peer0.json"""
+    set "RUN_CMD=py ""peer_operador_no_relay.py"" ""configs\peer0.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p1" (
     set "WINDOW_TITLE=PEER_p1"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer1.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer1.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p2" (
     set "WINDOW_TITLE=PEER_p2"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer2.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer2.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p3" (
     set "WINDOW_TITLE=PEER_p3"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer3.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer3.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p4" (
     set "WINDOW_TITLE=PEER_p4"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer4.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer4.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p5" (
     set "WINDOW_TITLE=PEER_p5"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer5.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer5.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p6" (
     set "WINDOW_TITLE=PEER_p6"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer6.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer6.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p7" (
     set "WINDOW_TITLE=PEER_p7"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer7.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer7.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="p8" (
     set "WINDOW_TITLE=PEER_p8"
-    set "RUN_CMD=py ""peer_generic.py"" ""configs\peer8.json"""
+    set "RUN_CMD=py ""peer_no_relay.py"" ""configs\peer8.json"""
     exit /b 0
 )
 
 if /i "%INPUT%"=="pT" (
     set "WINDOW_TITLE=PEER_pT"
-    set "RUN_CMD=py ""peer_terminal.py"" ""configs\peerT.json"""
+    set "RUN_CMD=py ""peer_terminal_no_relay.py"" ""configs\peerT.json"""
     exit /b 0
 )
 
